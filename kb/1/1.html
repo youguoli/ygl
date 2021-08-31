@@ -1,1 +1,624 @@
 
+ 
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="http://m.qpic.cn/psc?/V53hoASt0llQN44RsAy20uTNFf0iLz6I/45NBuzDIW489QBoVep5mcfIE9EUFEYtbqsn3WRJ2L3kFVP8WuND.sauMj5JQEighAB5hc9k2mDlogknAvPbfxsTxSEZbWuQm4gyB2OidziQ!/b&bo=QAZABgAAAAACNxM!&rf=viewer_4">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">	<!--浏览器采取何种版本渲染当前页面-->
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="robots" content="index,follow"><!--定义搜索引擎爬虫的索引方式
+	1.none : 搜索引擎将忽略此网页，等价于noindex，nofollow。
+	2.noindex : 搜索引擎不索引此网页。
+	3.nofollow: 搜索引擎不继续通过此网页的链接索引搜索其它的网页。
+	4.all : 搜索引擎将索引此网页与继续通过此网页的链接索引，等价于index，follow。
+	5.index : 搜索引擎索引此网页。
+	6.follow : 搜索引擎继续通过此网页的链接索引搜索其它的网页。
+	-->
+	  	  
+	  
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">	<!--移动的窗口-->
+<meta name="HandheldFriendly" content="true">
+
+<title>第一章</title>
+<style>
+
+</style>
+<style type="text/css">
+	.button8 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+		
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+}
+
+.button8 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button8 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button8:hover span {
+  padding-right: 25px;
+}
+
+.button8:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	
+	.button12 {
+  background-color: rgba(255, 255, 255, 0.8); /* Green */
+  border: none;
+  color: balck;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;	
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+.button12:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.btn-group5 .button5 {
+  		background-color: #72ccfd; /* 蓝色 */
+  		border: 1px solid green;	/*线框*/
+  		color: white;
+
+		}	
+	
+	.btn-group5 .button5:not(:last-child) {
+  		border-bottom: none; /* 阻止双边框 */
+		}
+
+	.btn-group5 .button5:hover {
+  		background-color: #3e8e41;
+		}
+	
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+	
+	.btn-group6 .button6 {
+  background-color:rgba(255, 255, 255, 0.8); /* 绿色 */
+  border: 0px solid green;
+		color: #003AA2;
+  padding:26px 28.39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;		/*指针*/
+  float: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-group6 .button6:not(:last-child) {
+  border-right: none; /* 阻止双边框 */
+}
+
+.btn-group6 .button6:hover {
+	background-color: #60AEC1;
+}
+	
+	.disable {
+  opacity: 0.6;
+  cursor: not-allowed;
+}			/*按钮禁用*/
+	
+	
+	.a {
+   		border: 1px solid #000;
+		background-color:#72ccfd;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}
+	
+	.b {
+   		border: 1px solid #000;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}	
+	
+	.c {
+   		border: 0px solid #000;
+		background-color: #A4A4A4;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}	
+	
+		.d {
+   		border: 0px solid #000;
+		background-color:rgba(255, 255, 255, 0.8);
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+		width: 750px;
+		height: 100px;
+	}	
+	
+		.e {
+   		border: 0px solid #000;
+		background-color:#72ccfd;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}
+
+		.f {
+   		border: 0px solid #000;
+		background-color:rgba(255, 255, 255, 0.8);
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+		width: 750px;
+	}						/*中部*/
+
+		.g {
+   		border: 0px solid #000;
+		background-color:rgba(255, 255, 255, 0.8);
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+		width: 750px;
+		height: 100px;
+	}						/*顶部*/
+
+		.h {
+   		border: 0px solid #000;
+		background-color:rgba(255, 255, 255, 0.8);
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+		width: 920px;
+			height: 1080px;
+	}						/*下部*/
+	
+		.i {
+   		border: 0px solid #000;
+		background-color:rgba(255, 255, 255, 0.8);
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+		width: 920px;
+		height: 120px;
+	}						/*末尾介绍*/
+	
+	.button {
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+
+	.button:after {
+  		content: "";
+  		background: #f1f1f1;
+  		display: block;
+  		position: absolute;
+  		padding-top: 300%;
+  		padding-left: 350%;
+  		margin-left: -20px !important;
+  		margin-top: -120%;
+  		opacity: 0;
+  		transition: all 0.8s
+		}
+
+	.button:active:after {
+  		padding: 0;
+  		margin: 0;
+  		opacity: 1;
+  		transition: 0s
+		}
+		
+	.button1{
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+	
+	.button2:hover {
+  		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+	
+	.button3{
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+	
+	.a1{
+		text-decoration: none;
+		color:#333;
+	}
+	
+	.z1 {
+		font-size: 25px;
+		line-height: 0;
+		font-weight:bold;
+	}			/*文字*/
+	
+	.z2{
+		font-size: 45px;
+		line-height: 0;
+		font-weight:bold;
+	}			/*大标题*/
+	
+	.z3{
+		font-size: 25px;
+		line-height: 0;
+		font-weight:bold;
+	}			/*小标题*/
+	
+	.z4 {
+		font-size: 17px;
+		line-height: 0;
+	}	
+
+/*
+a:蓝色背景+黑色边框
+b:无背景+黑色边框
+c:灰色背景+无边框
+d:浅蓝背景+无边框
+e:蓝色背景+无边框
+*/
+
+
+
+	
+	
+</style>
+	
+</head>
+
+
+<body>
+	
+	
+	<table align="center" cellpadding="0" width="960" cellspacing="0">
+		<tr height="100">
+			<td class="a">
+				<img src="https://z3.ax1x.com/2021/08/27/hlQLm4.gif" height="100">
+			</td>
+		</tr>
+		<tr>
+			<td height="20"></td>
+		</tr>
+	</table>
+
+	
+	<table align="center" cellpadding="0" width="960" cellspacing="0" class="e" border="0">
+		<tr>
+			<td class="d" align="center" width="100%">			<!--顶部-->
+				
+				<table width="100%" border="0">
+					<tr>
+						<td align="center" width="30">
+							<span class="z2">基础模块 第1章</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="20"></td>
+		</tr>
+		<tr>
+			<td class="#" align="center">							<!--中部-->
+				<table>
+					<tr>
+						<td>
+							<div class="btn-group6">
+  								<a href="1.html"><button class="button6"><span class="z3">第1小节</span></button></a>
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<div class="btn-group6">
+  								<a href="2.html"><button class="button6"><span class="z3">第2小节</span></button></a>
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<div class="btn-group6">
+  								<a href="3.html"><button class="button6"><span class="z3">第3小节</span></button></a>
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<div class="btn-group6">
+  								<a href="4.html"><button class="button6"><span class="z3">第4小节</span></button></a>
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<div class="btn-group6">
+  								<a><button class="button6 disable"><span class="z3">第5小节</span></button></a>
+							</div>
+						</td>
+						<td></td>
+						<td>
+							<div class="btn-group6">
+  								<a><button class="button6 disable"><span class="z3">第6小节</span></button></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr>
+			<td height="20"></td>
+		</tr>
+		<tr>
+			<td align="left" valign="top">
+				
+				
+				<table cellpadding="0" cellspacing="0" align="left" class="h" width="920"   border="0">
+					<tr>
+						<td height="50"><span class="z1">1.1 集合的概念</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">1.1.1 集合与元素</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">一个整体叫集合，组成的对象叫元素</span></td>
+					</tr>
+					<tr valign="top">
+						<td><img src="https://z3.ax1x.com/2021/08/29/hGYtvd.png" width="100%"></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4"></span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">∈（属于）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;∉（不属于）</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">基本性质：</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">属于和不属于符号左边必须得是元素，右边必须得是集合！</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4"></span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">1.1.2 集合表示法</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">集合的性质：</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">1.确定性</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">2.互异性</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">3.无序性</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4"></span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">表示集合的两种方法：</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">1.列举法</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">例：</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">{1,2,3,4}</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">2.描述法</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">例：</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">{x|x>2,x∈N}</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4"></span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">有限集、无限集、空集</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">1.有限集：有限的数</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">2.无限集：无限的数</span></td>
+					</tr>
+					<tr>
+						<td height="25"><span class="z4">3.空集（∅）：啥也没有</span></td>
+					</tr>
+				</table>
+				
+			</td>
+		</tr>
+		<tr>
+			<td height="20"></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table  cellpadding="0" cellspacing="0" border="0" align="center">
+					<tr>
+						<td><button class="button12 disable"><a>上一页</a></button></td>
+						<td width="20"></td>
+						<td><button class="button12"><a class="a1" href="../../page.html">主页</a></button></td>
+						<td width="20"></td>
+						<td><button class="button12"><a class="a1" href="2.html">下一页</a></button></td>
+					</tr>
+				</table>
+			
+			</td>
+		</tr>
+	</table>
+	
+
+	
+	
+	
+	
+	
+</body>
+</html>
+
+
