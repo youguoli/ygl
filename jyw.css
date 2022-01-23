@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+	.a {
+   		border: 1px solid #000;
+		background-color:#72ccfd;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}
+	
+	.b {
+   		border: 1px solid #000;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}	
+	
+	.c {
+   		border: 0px solid #000;
+		background: #00A0D0;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding:20px;
+	}	
+	
+	.d {
+   		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		height: 20px;
+		padding:20px;
+	}		
+	
+	.e {
+   		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		height: 20px;
+		width: 310px;
+		padding:20px;
+	}	
+	
+	.f {
+   		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		align-content: center;
+		height: 50px;
+		width:140px;
+		padding:20px;
+		font-size: 20px;
+		font-weight:bold;
+		line-height: 0;
+	}		
+	
+	.button {
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+
+	.button:after {
+  		content: "";
+  		background: #f1f1f1;
+  		display: block;
+  		position: absolute;
+  		padding-top: 300%;
+  		padding-left: 350%;
+  		margin-left: -20px !important;
+  		margin-top: -120%;
+  		opacity: 0;
+  		transition: all 0.8s
+		}
+
+	.button:active:after {
+  		padding: 0;
+  		margin: 0;
+  		opacity: 1;
+  		transition: 0s
+		}
+		
+	.button1{
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+	
+	.button2:hover {
+  		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+	
+	.button3{
+  		position: relative;
+  		border: none;
+ 		font-size: 20px;
+		color: black;
+  		padding: 20px;
+  		width: 130px;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		text-decoration: none;
+  		overflow: hidden;
+  		cursor: pointer;
+		border: 0px solid #000;
+		background-color: #A4D9FF;
+  	 	border-top-left-radius: 10px;
+  	  	border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-weight:bold;
+		line-height: 0;
+		align-content: center;
+	}
+	
+	
+	.z1 {
+		font-size: 17px;
+		line-height: 0;
+		font-weight:bold;
+		color: #FFFFFF;
+	}	
+	
+	.z2 {
+		font-size: 40px;
+		text-align: center;
+		font-weight:bold;
+	}
+
+	.z3 {
+		font-size: 17px;
+		color: #FFFFFF;
+		font-weight:bold;
+	}	
+	
+	.z4 {
+		font-size: 17px;
+		line-height: 0;
+		font-weight:bold;
+	}	
+
+/*
+a:蓝色背景+黑色边框
+b:无背景+黑色边框
+c:灰色背景+无边框
+d、e:浅蓝色背景+无边框
+*/
